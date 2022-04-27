@@ -1,0 +1,3 @@
+{
+    "/Search?imdbID=:imdbID": "/Search/:imdbID"
+}

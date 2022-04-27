@@ -1,0 +1,56 @@
+[
+    {
+      "title": "RRR",
+      "genre": "Action/Adventure",
+      "imdb": "8.9",
+      "image": "https://images.thedirect.com/media/photos/FFBVo2XaMAA8ydw.jpg",
+      "duration": "2hr 28min",
+      "trailer": "https://youtu.be/ZYzbalQ6Lg8",
+      "id": 1
+    },
+    {
+      "title": "The Matrix Resurrections",
+      "genre": "Action/Sci-Fi",
+      "imdb": "7.2",
+      "image": "https://reelcinemas.com//MovieImages/HO00002495.jpg",
+      "duration": "2hr 30min",
+      "trailer": "https://youtu.be/9ix7TUGVYIo",
+      "id": 2
+    },
+    {
+      "title": "Eternals",
+      "genre": "Action/Adventure",
+      "imdb": "6.8",
+      "image": "https://reelcinemas.com//MovieImages/HO00002298.jpg",
+      "duration": "2hr 35min",
+      "trailer": "https://youtu.be/x_me3xsvDgk",
+      "id": 3
+    },
+    {
+      "title": "No Time To Die",
+      "genre": "Action/Thriller",
+      "imdb": "7.4",
+      "image": "https://reelcinemas.com//MovieImages/HO00001524.jpg",
+      "duration": "2hr 45min",
+      "trailer": "https://youtu.be/N_gD9-Oa0fg",
+      "id": 4
+    },
+    {
+      "title": "Encanto",
+      "genre": "Animation/Adventure",
+      "imdb": "7.7",
+      "image": "https://reelcinemas.com//MovieImages/HO00002425.jpg",
+      "duration": "1hr 50min",
+      "trailer": "https://youtu.be/CaimKeDcudo",
+      "id": 4
+    },
+    {
+      "title": "Survive The Game",
+      "genre": "Action/Thriller",
+      "imdb": "4.7",
+      "image": "https://reelcinemas.com//MovieImages/HO00002520.jpg",
+      "duration": "1hr 40min",
+      "trailer": "https://youtu.be/gIR4hJg2X-4",
+      "id": 5
+    }
+  ]

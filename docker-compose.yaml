@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  backend:
+    build: ./fsd2-backend
+    ports:
+      - 8080:5000
+    depends_on:
+      - redis-server
+    networks:
+      - app-network  
+
+  frontend:
+    build: ./FSD2-Project
+    ports:
+      - 80:3000
+    depends_on:
+      - backend
+    networks:
+      - app-network  
+
+  redis-server:
+    image: 'redis'
+    restart: always
+    hostname: redisdb
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data/rdb
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+  node_modules:
